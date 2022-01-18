@@ -26,6 +26,10 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Home" });
 });
 
+app.get("/test", (req, res) => {
+  res.render("test", { title: "Test" });
+});
+
 /**
  * Server Activation
  */
